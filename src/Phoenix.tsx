@@ -20,6 +20,7 @@ export function Phoenix() {
           left: 50%;
           transform: translateX(-50%);
         `}
+        className="px-6 py-3 bg-purple-200 text-purple-700 text-xl uppercase font-bold tracking-widest rounded"
         onClick={toggle}
       >
         {isHidden ? 'Show' : 'Hide'}
